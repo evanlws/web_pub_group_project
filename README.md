@@ -1,1 +1,1 @@
-web_pub_group_project
+Repo for our web publication group project
