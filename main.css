@@ -157,20 +157,6 @@ body {
   text-align: center;
 }
 
-#contactBackground {
-  position: absolute;
-  z-index: 0;
-  top: 0;
-  max-height: 100%;
-  max-width: 100%;
-  object-fit: contain;
-  width: 100%;
-  height: 150px;
-  background-image: url(img/wall.jpg);
-  background-size:cover;
-  background-repeat: no-repeat;
-}
-
 .centeredmenu {
   height: 50px;
   display: inline;
@@ -286,7 +272,18 @@ main#index {
   margin-top: 50px;
 }
 
-#indexBackground {
+header > div.centeredmenu {
+  clear: none;
+  display: inline-block;
+  float: none;
+  top: 210px;
+}
+
+
+/*****
+CSS for individual pages
+*****/
+.headerImage {
   position: absolute;
   z-index: 0;
   top: 0;
@@ -294,15 +291,56 @@ main#index {
   max-width: 100%;
   object-fit: contain;
   width: 100%;
-  height: 300px;
-  background-image: url(img/home_page_image.jpg);
+  height: 150px;
   background-size:cover;
   background-repeat: no-repeat;
 }
 
-header > div.centeredmenu {
-  clear: none;
-  display: inline-block;
-  float: none;
-  top: 210px;
+#cakedHeaderImage {
+  background-image: url(img/cupcakes.png);
+}
+
+#indexHeaderImage {
+  height: 300px;
+  background-image: url(img/home_page_image.jpg);
+}
+
+#contactHeaderImage {
+  background-image: url(img/wall.jpg);
+}
+
+#booksHeaderImage {
+   background-image: url(img/books.jpg);
+}
+
+#antiquesHeaderImage {
+  background-image: url(img/antiques.jpg);
+}
+
+#caliHeaderImage {
+  background-image: url(img/cali.jpg);
+}
+
+#gatehouseHeaderImage {
+  background-image: url(img/gatehouse.jpg);
+}
+
+#lentoHeaderImage {
+  background-image: url(img/lento.jpg);
+}
+
+#salenasHeaderImage {
+  background-image: url(img/salenas.jpg);
+}
+
+#improvHeaderImage {
+  background-image: url(img/improv.jpg);
+}
+
+main#lento {
+  height: 830px;
+}
+
+main#salenas {
+  height: 560px;
 }
